@@ -2,5 +2,5 @@
 
 public interface Iprintable
 {
-    
+    public void Print(); // для печати в консоли
 }
