@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricFigure_Interface", "GeometricFigure_Interface\GeometricFigure_Interface.csproj", "{B5D8EA9D-9970-4806-A227-E1FAB12D1722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D8EA9D-9970-4806-A227-E1FAB12D1722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D8EA9D-9970-4806-A227-E1FAB12D1722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D8EA9D-9970-4806-A227-E1FAB12D1722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D8EA9D-9970-4806-A227-E1FAB12D1722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
