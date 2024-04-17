@@ -14,7 +14,7 @@ public abstract class GeometricFigure
         return $"Фигура: {Name}\nПлощадь: {GetArea()}\nПериметр: {GetPerimeter()}";
     }
 
-    public virtual void Print()
+    public void Print()
     {
         Console.WriteLine(ToString());
     }

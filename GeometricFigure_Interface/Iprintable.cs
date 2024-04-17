@@ -1,6 +1,6 @@
 ﻿namespace GeometricFigure_Interface;
 
-public interface Iprintable
+public interface IPrintable
 {
     public void Print(); // для печати в консоли
 }

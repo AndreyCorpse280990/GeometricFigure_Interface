@@ -1,7 +1,7 @@
 ﻿namespace GeometricFigure_Interface;
 
 // Класс квадрата
-public class Square : GeometricFigure, Iprintable
+public class Square : GeometricFigure, IPrintable
 {
     private double Length { get; } // длина стороны
             
@@ -24,7 +24,7 @@ public class Square : GeometricFigure, Iprintable
         return Length * 4;
     }
 
-    public void Print()
+    public new void Print()
     {
         Console.WriteLine(ToString());
     }
