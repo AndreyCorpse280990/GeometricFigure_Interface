@@ -58,6 +58,4 @@ public class Triangle : GeometricFigure, IPrintable, IDrawable
             Console.WriteLine();
         }
     }
-    
-    
 };

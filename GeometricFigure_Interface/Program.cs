@@ -17,19 +17,16 @@ namespace GeometricFigure_Interface
             GeometricFigure triangle = new Triangle("Треугольник", 3, 4, 5);
             GeometricFigure square = new Square("Квадрат", 10);
             
-
             // Тестирование методов Print
             triangle.Print();
             Console.WriteLine("===================");
             square.Print();
-
-
+            
             // Создание сцены и добавление фигур
             Scene scene = new Scene();
             scene.AddFigure(triangle);
             scene.AddFigure(square);
-
-
+            
             // Тестирование метода DrawScene
             Console.WriteLine("===================");
             Console.WriteLine("Отрисовка сцены:");
